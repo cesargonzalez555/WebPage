@@ -1,0 +1,49 @@
+body {
+  padding-top: 70px; }
+
+.navbar {
+  background: #0097A7;
+  border: #ddd; }
+
+.fa-home {
+  margin-right: 20px; }
+
+.jumbotron {
+  background: #00BCD4;
+  text-align: center;
+  padding-right: 0;
+  padding-left: 0; }
+  .jumbotron .container {
+    max-width: none;
+    width: 100%; }
+    .jumbotron .container .row a {
+      color: floralwhite; }
+
+.card-deck {
+  margin-top: 20px; }
+  .card-deck .card {
+    border: 1px solid #dddfd7; }
+    .card-deck .card img {
+      width: 100%;
+      height: auto; }
+    .card-deck .card .gig-rating {
+      color: #ffbf00;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    .card-deck .card .btn-heart {
+      padding: 0;
+      margin-right: 10px; }
+
+footer {
+  margin-top: 100px;
+  border: 1px solid #dddfd7;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+a:hover {
+  text-decoration: none; }
+
+.modal-header {
+  background-color: #00BCD4; }
+  .modal-header .modal-tittle {
+    color: white; }

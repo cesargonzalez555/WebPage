@@ -1,0 +1,70 @@
+$lt-gray: #ddd;
+$background-dark: #0097A7;
+$background-light: #B2EBF2;
+$background-pale: #00BCD4;
+
+body {
+  padding-top: 70px;
+}
+
+.navbar {
+  background: $background-dark;
+  border: $lt-gray;
+}
+
+.fa-home {
+  margin-right: 20px;
+}
+
+.jumbotron {
+  background: $background-pale;
+  text-align: center;
+  padding-right: 0;
+  padding-left: 0;
+  .container {
+    max-width: none;
+    width: 100%;
+    .row a {
+      color: floralwhite;
+    }
+  }
+}
+
+.card-deck {
+  margin-top: 20px;
+  .card {
+    border: 1px solid #dddfd7;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    .gig-rating {
+        color: #ffbf00;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .btn-heart {
+      padding: 0;
+      margin-right: 10px;
+    }
+  }
+}
+
+footer {
+  margin-top: 100px;
+  border: 1px solid #dddfd7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.modal-header {
+  background-color: $background-pale;
+    .modal-tittle {
+      color: white;
+    }
+}
